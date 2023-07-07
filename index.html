@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S & J ❤️</title>
+  <!-- Adding open graph metadata to a webpage -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Invitación de S & J ❤️" />
+  <meta property="og:description" content="Clic aquí para abrir nuestra invitación" />
+  <!-- card: web address -->
+  <meta property="og:url" content="https://davidspalaciof.github.io/" />
+
+  <!-- card: web address img -->
+  <meta property="og:image" content="./img/min/main-min.jpg" />
+
+  <!-- link icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Shorticon -->
+  <link rel="icon" type="image/png" href="/img/shortcut-icon/shortcut-icon-S&J.png" sizes="32x32">
+  <!-- styles main css -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/validateFormInputs.js"></script>
+</head>
+
+<body>
+
+  <section class="modal">
+    
+  </section>
+
+  <main class="main-content">
+
+    <!-- First part -->
+    <section class="main-section">
+      <header class="header">
+        <h1 class="header__title">Nos casamos</h1>
+        <p class="header__subtitle">Sergio & Jessica</p>
+      </header>
+      <a href="#event-data"><i id="icon-down" class='main-section__icon-down bx bxs-chevron-down'></i></a>
+    </section>
+
+    <!-- Second part -->
+    <section id="event-data" class="event-data">
+      <div class="event-data__audioContainer">
+        <audio class="event-data__generalAudio" id="audio" controls>
+          <source src="./audio/Ed-Sheeran_photograph_minified.ogg" type="audio/ogg">
+          <source src="./audio/Ed Sheeran_photograph_64kbps_minified.mp3" type="audio/mpeg">
+          Tu navegador no tiene soporte
+        </audio>
+      </div>
+
+      <!-- Invit paragraph -->
+      <article class="event-data__invit">
+        <div class="event-data__invit--paragraph">
+          <h2>¡Estás invitado!</h2>
+          <p>Nos encataría que seas parte de este momento tan especial para nosotros. ¡Falta poco!</p>
+        </div>
+        <div class="event-data__invit--coutdown">
+          <div>
+            <p class="countdown-circle" id="days">00</p>
+            <span>Dias</span>
+          </div>
+          <div>
+            <p class="countdown-circle" id="hours">00</p>
+            <span>Horas</span>
+          </div>
+          <div>
+            <p class="countdown-circle" id="minutes">00</p>
+            <span>Minutos</span>
+          </div>
+          <div>
+            <p class="countdown-circle" id="seconds">00</p>
+            <span>Segundos</span>
+          </div>
+        </div>
+        <!-- <p class="event-data__invit__finished">¡LLegó el día!</p> -->
+      </article>
+
+      <aside class="modal" id="map-modal">
+        <div class="modal__container">
+          <i class="bx bx-plus modal__icon-close"></i>
+          <!-- <img loading="lazy" class="modal__icon-geocerca" src="./img/icons/geocerca.gif" alt=""> -->
+          <i class='bx bx-map-pin modal__icon-geocerca'></i>
+          <h2 class="modal__title">ubicación</h2>
+          <p class="modal__paragraph">Dirección Google Maps</p>
+          <div class="modal__body">
+            <iframe loading="lazy" class="modal__body__map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.9307243267463!2d-75.64596460599685!3d6.140008740076507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4681389988bf2b%3A0x697c081808a6387d!2sCentro%20De%20Eventos%20La%20Portuguesa!5e0!3m2!1sen!2sco!4v1687646118743!5m2!1sen!2sco"
+              allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </aside>
+      <!-- Place data -->
+      <article class="event-data__place">
+        <div class="event-data__place--info">
+          <img loading="lazy" class="event-data__place__img" src="./img/anillo-de-bodas.png" alt="">
+          <hgroup class="event-data__place__titles">
+            <h2 class="h2">ceremonia</h2>
+            <h4 class="h4">Centro de eventos la portuguesa</h4>
+          </hgroup>
+          <p class="event-data__place__paragraph">Te esperamos el</p>
+          <div class="event-data__place__info">
+            <p>20 jul</p>
+            <span class="event-data__place__info--border"></span>
+            <p>3:00 p.m.</p>
+          </div>
+          <div class="event-data__place__infoextra">
+            <p>Calle 91 Sur # 59 -323,</p>
+            <p>Pueblo viejo, la Estrella</p>
+          </div>
+          <div class="event-data__place__button">
+            <button id="btnOpenModal" class="btn openModal">Ver ubicacion</button>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Three part -->
+
+    <section class="event-anypart">
+      <article class="event-anypart__container">
+
+        <div class="event-anypart__subcontainer">
+          <i class='bx bx-diamond event-anypart__icon'></i>
+          <h2 class="event-anypart__title">dresscode</h2>
+          <p class="event-anypart__text">Formal</p>
+          <p class="event-anypart__text">No niños</p>
+        </div>
+
+        <div class="event-anypart__subcontainer">
+          <i class='bx bx-gift event-anypart__icon'></i>
+          <h2 class="event-anypart__title">regalos</h2>
+          <p class="event-anypart__text event-anypart__text--padding">Lo más importante es tu presencia, pero si deseas
+            hacernos un regalo aqui tienes nuestros datos.</p>
+          <button class="event-anypart__button" id="btn-gifts" type="button">ver datos bancarios</button>
+          <div class="event-anypart__text--hidden">
+            <p class="event-anypart__text--bold">Cuenta de ahorros</p>
+            <p class="event-anypart__text--bold">001 0000 2355</p>
+          </div>
+        </div>       
+
+      </article>
+    </section>
+
+    <section class="event-us">
+      <h2 class="event-us__title">Nosotros</h2>
+      <article class="event-us__gallery">
+        <figure class="event-us__gallery__item gallery__item--1 animated">
+          <!-- Gallery main image -->
+          <img loadin="lazy" class="gallery__img" src="img/gallery-grid/optimized/main-gallery-min.jpg"
+            alt="Foto pareja S&J">
+        </figure>
+        <figure class="event-us__gallery__item gallery__item--2 animated">
+          <img loadin="lazy" class="gallery__img" src="img/gallery-grid/optimized/left-gallery-min.jpg"
+            alt="Foto pareja S&J">
+        </figure>
+        <figure class="event-us__gallery__item gallery__item--3 animated">
+          <img loadin="lazy" class="gallery__img" src="img/gallery-grid/optimized/right-gallery-min.jpg"
+            alt="Foto pareja S&J">
+        </figure>
+        <figure class="event-us__gallery__item gallery__item--4 animated">
+          <img loadin="lazy" class="gallery__img" src="img/gallery-grid/optimized/top-left-gallery.jpg"
+            alt="Foto pareja S&J">
+        </figure>
+        <figure class="event-us__gallery__item gallery__item--5 animated">
+          <img loadin="lazy" class="gallery__img" src="img/gallery-grid/optimized/bottom-right.jpg"
+            alt="Foto pareja S&J">
+        </figure>
+      </article>
+    </section>
+
+    <section class="event-confirm">
+      <aside class="modal" id="alert-modal">
+        <div class="modal__container modal__container--alert">
+          <i class="bx bx-plus modal__icon-close"></i>
+          <div>
+
+          </div>
+          <i class='bx bx-info-circle modal__icon-info'></i>
+          <h2 class="modal__title" id="text-alert">Informacion</h2>
+          <p class="modal__paragraph" id="message-modal"></p>
+          <!-- <div class="modal__body">
+              
+            </div> -->
+        </div>
+      </aside>
+      <h2 class="event-confirm__title">Confirmar <span>asistencia</span></h2>
+      <article class="event-confirm__container">
+        <p>Por favor, confirma tu asistencia</p>
+        <form class="form" name="assistance-form">
+          <div class="form__group">
+            <input onkeypress="return lettersOnly(event)" type="text" class="form__group__input" name="names" id="names"
+              placeholder="Nombres y apellidos" required autocomplete="off">
+          </div>
+          <div class="form__group">
+            <select class="form__group__select" name="assistance" id="assistance" required>
+              <option disabled selected value="">¿Asistirás?</option>
+              <option value="Sí">Sí</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <textarea class="form__group__textarea" name="message" id="message" placeholder="Mensaje para los novios:"
+              required></textarea>
+          </div>
+          <button class="form__group__button" id="btn-form" type="submit">Enviar respuesta</button>
+        </form>
+      </article>
+      <article class="event-confirm__signature">
+        <h2 class="event-confirm__signature__title">Te esperamos</h2>
+        <h4 class="event-confirm__signature__main">Sergio & Jessica</h4>
+      </article>
+    </section>
+
+
+    <footer class="footer">
+      <!-- <p class="footer__title">Proof of design D.P</p> -->
+    </footer>
+  </main>
+
+  <!-- <script src="js/parallax.js"></script> -->
+  <!-- <script src="js/animateScriptGallery.js" type="module"></script> -->
+  <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
